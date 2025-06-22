@@ -1,0 +1,59 @@
+/* Custom purple theme enhancements */
+.header-container {
+    text-align: center;
+    padding: 2rem 0 1.5rem 0;
+    margin-bottom: 2rem;
+}
+.header-container h1 {
+    color: #9146FF;
+    margin-bottom: 0.8rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.header-container p {
+    color: #FAFAFA;
+    opacity: 0.9;
+    margin: 0;
+    font-size: 1.1rem;
+}
+/* Form styling - removed dark background */
+.stForm {
+    border: 1px solid #9146FF;
+    border-radius: 12px;
+    padding: 1.5rem;
+    background-color: transparent;
+    box-shadow: 0 4px 20px rgba(145, 70, 255, 0.1);
+}
+/* Button enhancements */
+.stButton > button {
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+.stButton > button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(145, 70, 255, 0.3);
+}
+/* Audio player styling */
+.stAudio {
+    margin: 1rem 0;
+}
+/* Status message styling */
+.stAlert {
+    border-radius: 8px;
+    margin: 1rem 0;
+}
+/* Input field enhancements */
+.stTextInput > div > div > input {
+    border-radius: 6px;
+    border: 1px solid #9146FF;
+}
+.stTextArea > div > div > textarea {
+    border-radius: 6px;
+    border: 1px solid #9146FF;
+}
+/* Subheader styling */
+.stForm h3 {
+    color: #9146FF;
+    margin-bottom: 1rem;
+}
