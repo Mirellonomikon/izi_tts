@@ -1,4 +1,3 @@
 streamlit
-requests
 python-dotenv
-streamlit-option-menu
+google-genai
